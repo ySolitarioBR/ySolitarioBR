@@ -57,10 +57,10 @@ sell.Name = "sell"
 sell.Parent = Frame
 sell.BackgroundColor3 = Color3.fromRGB(60, 0, 182)
 sell.BorderSizePixel = 0
-sell.Position = UDim2.new(0.169934645, 0, 0.470085442, 0)
+sell.Position = UDim2.new(0.169934645, 0, 0.464387447, 0)
 sell.Size = UDim2.new(0, 200, 0, 50)
 sell.Font = Enum.Font.SourceSansBold
-sell.Text = "TP Sell x70"
+sell.Text = "Multiplier x70"
 sell.TextColor3 = Color3.fromRGB(255, 255, 255)
 sell.TextSize = 30.000
 
@@ -88,7 +88,7 @@ open.TextSize = 25.000
 
 -- Scripts:
 
-local function QIFVGMH_fake_script() -- tp.LocalScript 
+local function LAPSN_fake_script() -- tp.LocalScript 
 	local script = Instance.new('LocalScript', tp)
 
 	function Clicked() 
@@ -99,8 +99,8 @@ local function QIFVGMH_fake_script() -- tp.LocalScript
 	
 	script.Parent.MouseButton1Down:connect(Clicked)
 end
-coroutine.wrap(QIFVGMH_fake_script)()
-local function TSLPVEG_fake_script() -- sell.LocalScript 
+coroutine.wrap(LAPSN_fake_script)()
+local function OBSQEZ_fake_script() -- sell.LocalScript 
 	local script = Instance.new('LocalScript', sell)
 
 	function Clicked() 
@@ -111,8 +111,8 @@ local function TSLPVEG_fake_script() -- sell.LocalScript
 	
 	script.Parent.MouseButton1Down:connect(Clicked)
 end
-coroutine.wrap(TSLPVEG_fake_script)()
-local function OASZ_fake_script() -- open.LocalScript 
+coroutine.wrap(OBSQEZ_fake_script)()
+local function APDQLD_fake_script() -- open.LocalScript 
 	local script = Instance.new('LocalScript', open)
 
 	local mode = true
@@ -129,4 +129,4 @@ local function OASZ_fake_script() -- open.LocalScript
 		end
 	end)
 end
-coroutine.wrap(OASZ_fake_script)()
+coroutine.wrap(APDQLD_fake_script)()
